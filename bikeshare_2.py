@@ -24,7 +24,7 @@ def get_filters():
     city = user_prompt(question, checkdata, addtext)
     	
     # get user input for month (all, january, february, ... , june)
-    question = 'Please choose a month to explore the data from the following choices:\n [all, january, february, march, april, may, june]\nChoice = '
+    question = 'Please choose a month to explore the data from the following choices:\n [All, January, February, March, April, May, June]\nChoice = '
     checkdata = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     addtext = 'I can work with that!'
     month = user_prompt(question, checkdata, addtext)
