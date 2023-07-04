@@ -18,7 +18,7 @@ def get_filters():
     print('\nHello! Let\'s explore some US bikeshare data!\n')
 	
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    question = 'Please choose a city to explore the data from the following choices:\n [chicago, new york city, washington]\nChoice = '
+    question = 'Please choose a city to explore the data from the following choices:\n [Chicago, New York City, Washington]\nChoice = '
     checkdata = CITY_DATA
     addtext = 'Excellent choice!'
     city = user_prompt(question, checkdata, addtext)
