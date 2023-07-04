@@ -30,7 +30,7 @@ def get_filters():
     month = user_prompt(question, checkdata, addtext)
     
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    question = 'Please choose a day to explore the data from the following choices:\n [all, monday, tuesday, wednesday, thursday, friday, saturday, sunday]\nChoice = '
+    question = 'Please choose a day to explore the data from the following choices:\n [All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]\nChoice = '
     checkdata = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     addtext = 'As you wish!'
     day = user_prompt(question, checkdata, addtext)
