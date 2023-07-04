@@ -3,18 +3,18 @@
 ### Date created
 July 4, 2023
 
-### Explore US Bikehare Data
+### Explore US Bikeshare Data
 
 
 ### Description
 
-This python project was comleted as the second project within the **Programming for Data Science with Python** Nanodegree program from [Udacity](https://www.udacity.com/). The project uses python code to provide statistics on bikeshare data from one of three major cities based on some user input.
+This python project was completed as the second project within the **Programming for Data Science with Python** Nanodegree program from [Udacity](https://www.udacity.com/). The project uses python code to provide statistics on bikeshare data from one of three major cities based on some user input.
 
 ### Files used
 - bikeshare_2.py
-- chicago.csv (not inclded in repo)
-- new_york_city.csv (not inclded in repo)
-- washington.csv (not inclded in repo)
+- chicago.csv (not included in repo)
+- new_york_city.csv (not included in repo)
+- washington.csv (not included in repo)
 
 ### Credits
 * I learned most of this python code and version control information from [Udacity](https://www.udacity.com/).
