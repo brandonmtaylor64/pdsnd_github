@@ -7,7 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 def get_filters():
-    """Asks user to specify a city, month, and day to analyze.
+    """Asks user to specify a city, month, and day to analyze bikeshare data.
 
     Returns:
         (str) city - name of the city to analyze
@@ -62,14 +62,14 @@ def user_prompt(question, checkdata, addtext =' That\'s an acceptable entry.'):
 
 
 def load_data(city, month, day):
-    """Loads data for the specified city and filters by month and day if applicable.
+    """Loads bikeshare data for the specified city and filters by month and day if applicable.
 
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
-        df - Pandas DataFrame containing city data filtered by month and day
+        df - Pandas DataFrame containing city bikeshare data filtered by month and day
     """
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
@@ -224,7 +224,7 @@ def user_stats(df):
     
 
 def raw_data_view(df):
-    """Displays raw data, 5 lines at a time, on bikeshare users if the user wants."""
+    """Displays raw bikeshare data, 5 lines at a time, on bikeshare users if the user wants."""
     print('\nRaw Data Viewing...\n')
     
     # Prompt user to view raw data
