@@ -18,19 +18,19 @@ def get_filters():
     print('\nHello! Let\'s explore some US bikeshare data!\n')
 	
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    question = 'Please choose a city to explore the data from the following choices:\n [chicago, new york city, washington]\nChoice = '
+    question = 'Please choose a city to explore the data from the following choices:\n [Chicago, New York City, Washington]\nChoice = '
     checkdata = CITY_DATA
     addtext = 'Excellent choice!'
     city = user_prompt(question, checkdata, addtext)
     	
     # get user input for month (all, january, february, ... , june)
-    question = 'Please choose a month to explore the data from the following choices:\n [all, january, february, march, april, may, june]\nChoice = '
+    question = 'Please choose a month to explore the data from the following choices:\n [All, January, February, March, April, May, June]\nChoice = '
     checkdata = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     addtext = 'I can work with that!'
     month = user_prompt(question, checkdata, addtext)
     
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    question = 'Please choose a day to explore the data from the following choices:\n [all, monday, tuesday, wednesday, thursday, friday, saturday, sunday]\nChoice = '
+    question = 'Please choose a day to explore the data from the following choices:\n [All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]\nChoice = '
     checkdata = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     addtext = 'As you wish!'
     day = user_prompt(question, checkdata, addtext)
